@@ -1,0 +1,53 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 100;
+    padding: 100;
+    background-color: #f7f7f7;
+    border-bottom-right-radius: 50;
+
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #b0b7b8;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(59, 59, 59, 0.1);
+    
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #777b7e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: underline overline
+    
+}
+
+header h1 {
+    margin: 500;
+    border-radius: 50px;
+    
+
+    
+}
+
+/* Estilos do portfólio */
+.portfolio h2 {
+    color: #5c5959;
+    text-align: center;
+    
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .container {
+        
+        width: 100%;
+    }
+    form button {
+        width: 100%;
+    }

@@ -1,53 +1,69 @@
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    margin: 100;
-    padding: 100;
+    margin: 200;
+    padding: 200;
     background-color: #f7f7f7;
-    border-bottom-right-radius: 50;
+    border-bottom-right-radius: 20;
+    Font-size: 18px;
 
-    
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #b0b7b8;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(59, 59, 59, 0.1);
-    
-}
-
-/* Estilos do cabeçalho */
-header {
-    background-color: #777b7e;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    text-decoration: underline overline
     
 }
 
 header h1 {
     margin: 500;
     border-radius: 50px;
-    
-
+    text-align: right;
+    color: #000000;
+    width: 100%
     
 }
-
-/* Estilos do portfólio */
-.portfolio h2 {
-    color: #5c5959;
+ 
+.category h2 {
+    margin: 500;
+    border-radius: 50px;
+    text-align: right;
+    color: #000000;  
     text-align: center;
-    
+
+}
+
+.category h3 {
+    margin: 500;
+    border-radius: 50px;
+    text-align: right;
+    color: #0e0d0d;  
+    text-align: center;
+}
+
+.category h4 {
+    margin: 500;
+    border-radius: 50px;
+    text-align: right;
+    color: #000000;  
+    text-align: center;
+
+}
+
+footer h5 {
+    margin: 500;
+    border-radius: 50px;
+    text-align: right;
+    color: #000000;  
+    text-align: center;
+}
 
 /* Responsividade */
 @media screen and (max-width: 768px) {
+
+    }
     .container {
         
         width: 100%;
     }
+
     form button {
+       
         width: 100%;
+     
     }

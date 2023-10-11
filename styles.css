@@ -1,69 +1,70 @@
-/* Estilos gerais */
-body {
-    font-family: Arial, sans-serif;
-    margin: 200;
-    padding: 200;
-    background-color: #f7f7f7;
-    border-bottom-right-radius: 20;
-    Font-size: 18px;
-
-    
+body{
+    margin: 0px;
+    padding: 0px;
 }
 
-header h1 {
-    margin: 500;
-    border-radius: 50px;
-    text-align: right;
-    color: #000000;
-    width: 100%
-    
+
+/* --------------------------------------------------------------------- */
+
+header{
+	background-color:black;
+	padding: 2px;
 }
- 
-.category h2 {
-    margin: 500;
-    border-radius: 50px;
-    text-align: right;
-    color: #000000;  
-    text-align: center;
+
+figure{
+    display: flex;
 
 }
 
-.category h3 {
-    margin: 500;
-    border-radius: 50px;
-    text-align: right;
-    color: #0e0d0d;  
+.figureImg{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+figcaption{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	color:white;
+	font-size:25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
 }
 
-.category h4 {
-    margin: 500;
-    border-radius: 50px;
-    text-align: right;
-    color: #000000;  
-    text-align: center;
-
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-footer h5 {
-    margin: 500;
-    border-radius: 50px;
-    text-align: right;
-    color: #000000;  
-    text-align: center;
+.section1{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 500px;
+    border: solid 3px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-/* Responsividade */
-@media screen and (max-width: 768px) {
+.section img{
+    width: 200px;
+}
 
-    }
-    .container {
-        
-        width: 100%;
-    }
 
-    form button {
-       
-        width: 100%;
-     
-    }
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	color:white;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+
+
+header {
+    background-color: rgb(20, 20, 20);
+    border: solid;
+    text-align: right;
+    padding: 20px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+}
+header h3 {
+     
+    font-size: 25px;
+    color: brown;
+}
+
+#rg {
+    background-color: rgb(93, 95, 95);
+    border: solid;
+    text-align: center;
+    padding: 20px; 
+    width: 600px;
+    align-content: center;
+    
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+img{
+    border-radius: 50%;
+}

@@ -1,9 +1,13 @@
+/*CSS dos portfólios*/
+
 body{
     margin: 0px;
     padding: 0px;
 }
 
 /* --------------------------------------------------------------------- */
+
+/*CSS do Header dos portfólios*/
 
 header{
 	background-color:black;
@@ -33,6 +37,10 @@ figcaption{
     text-align: center;
 }
 
+/* --------------------------------------------------------------------- */
+
+/*CSS da apresentação com imagem e informações*/
+
 .section{
     display: flex;
     justify-content: center;
@@ -51,8 +59,12 @@ figcaption{
 
 .section img{
     width: 200px;
+    margin: 20px;
 }
 
+/* --------------------------------------------------------------------- */
+
+/*CSS do footer dos portfólios*/
 
 footer{
     display: flex;
@@ -67,3 +79,5 @@ footer{
     margin-bottom: auto;
     text-align: center;
 }
+
+/* --------------------------------------------------------------------- */

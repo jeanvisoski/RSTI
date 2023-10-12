@@ -1,11 +1,43 @@
 /*CSS dos portfólios*/
 
 body{
+    font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
 /* --------------------------------------------------------------------- */
+
+.portfolio {
+    padding: 20px;
+}
+
+.category {
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.logo img {
+    
+    max-width: 240px;
+    border: 1px solid #ddd;
+    border-radius: 100px;
+}
+
 
 /*CSS do Header dos portfólios*/
 

@@ -1,3 +1,70 @@
+/* Determinando variáveis das cores do menu */
+
+:root {
+    --cor1-fundo : rgb(0, 0, 0);
+    --cor2-hover : rgb(119, 116, 130);
+    --cor2-primaria : rgb(255, 255, 255);
+}
+
+.drop-menu {
+    background-color: var(--cor1-fundo);
+    
+}
+
+.drop-menu ul {
+    list-style: none;
+    text-align: center;
+    background-color: var(--cor1-fundo);
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0px 120px 0px 120px;
+}
+
+.drop-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.drop-menu ul li a {
+    color: var(--cor2-primaria);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+    margin: 0;
+}
+
+.drop-menu ul li a:hover {
+    background-color: var(--cor2-hover);
+}
+
+/* Submenu */
+
+.drop-menu ul ul {
+    display: none;
+    position: absolute;
+    left: 0;
+}
+
+.drop-menu ul li:hover ul {
+    display: block;
+}
+
+.drop-menu ul ul {
+    width: 150px;
+}
+
+.drop-menu ul ul li a {
+    display: block;
+}
+
+/* --------------------------------------------------------------------- */
+
+
 /*CSS dos portfólios*/
 
 body{

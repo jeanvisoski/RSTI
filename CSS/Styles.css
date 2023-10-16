@@ -1,8 +1,4 @@
-/* Determinando variáveis das cores do menu */
-* {
-    padding: 0;
-    margin: 0 auto;
-}
+
 :root {
     --cor1-fundo : rgb(0, 0, 0);
     --cor2-hover : rgb(119, 116, 130);
@@ -11,6 +7,8 @@
 
 .drop-menu {
     background-color: var(--cor1-fundo);
+    padding: 0;
+    margin: 0 auto;
 }
 
 .drop-menu ul {
@@ -19,11 +17,15 @@
     background-color: var(--cor1-fundo);
     display: flex;
     max-width: 1100px;
+    padding: 0;
+    margin: 0 auto;
 }
 
 .drop-menu ul li {
     display: inline;
     position: relative;
+    padding: 0;
+    margin: 0 auto;
 }
 
 .drop-menu ul li a {

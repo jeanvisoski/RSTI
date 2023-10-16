@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>&copy;2023 - Contato</title>
-    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="../CSS/Styles.css">
 </head>
 
 <body>
@@ -17,26 +17,54 @@
         </figure>
     </header>
 
+    <nav class="drop-menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="#">Turma 1</a>
+                <ul>
+                    <li><a href="../Portfólios/caianpereira.html">Caian</a></li>
+                    <li><a href="../Portfólios/carol.html">Carol</a></li>
+                    <li><a href="../Portfólios/henrique.html">Henrique</a></li>
+                    <li><a href="../Portfólios/jfantini.html">João</a></li>
+                    <li><a href="../Portfólios/jose.html">José</a></li>
+                    <li><a href="../Portfólios/josias.html">Josias</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Turma 2</a>
+                <ul>
+                    <li><a href="../Portfólios/Juliacarbonera.html">Julia</a></li>
+                    <li><a href="../Portfólios/leo.html">Leonardo</a></li>
+                    <li><a href="../Portfólios/matheus.html">Matheus</a></li>
+                    <li><a href="../Portfólios/renato.html">Renato</a></li>
+                    <li><a href="../Portfólios/vitor.html">Vítor</a></li>
+                    <li><a href="../Portfólios/ygorp.html">Ygor</a></li>
+                </ul>
+            </li>
+            <li><a href="../Formulário/contato.html">Formulário</a></li>
+        </ul>
+    </nav>
+
     <div class="section">
         <div class="section1">
 
             <img src="https://i0.wp.com/multarte.com.br/wp-content/uploads/2020/09/senac-logomarca.jpg?resize=696%2C445&ssl=1" alt="">
 
             <div class="texto">
-                <form action="">
+                <form action="mailto:jean.a.visoski@gmail.com"
+                method="post">
                     <label for="Nome">Nome:</label>
                     <br>
-                    <input type="text" size="35px">
+                    <input type="Nome" required="true" size="30px">
                     <br>
                     <br>
                     <label for="Email">E-mail:</label>
                     <br>
-                    <input type="text" size="35px">
+                    <input type="Email" required="true" size="30px">
                     <br>
                     <br>
                     <label for="Mensagem">Mensagem:</label>
                     <br>
-                    <textarea name="mensagem" id="" cols="35" rows="10" maxlength="500"></textarea>
+                    <textarea required="true" name="mensagem" id="" cols="30" rows="10" maxlength="500"></textarea>
                     <br>
                     <br>
                     <button type="submit">Enviar</button>
